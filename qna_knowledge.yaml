@@ -1,0 +1,24 @@
+task_description: 'Knowledge skill - Conocimiento sobre terminos de inversion'
+created_by: Client Engineering
+domain: finance
+seed_examples:
+ - question: ¿Qué es una "ampliación de capital"?
+   answer: |
+     Una ampliación de capital es una operación societaria que permite a una empresa aumentar su capital social, ya sea mediante la emisión de nuevas participaciones o el aumento del valor nominal de las existentes. Puede realizarse con o sin prima de asunción y pueden participar tanto socios existentes como nuevos bajo ciertos requisitos.
+ - question: ¿Qué significa "Deal Flow" en el contexto de inversión en startups?
+   answer: |
+     "Deal Flow" se refiere al número de potenciales inversores que un inversor revisa durante un periodo de tiempo determinado. Esencialmente, indica la cantidad de oportunidades de inversión que se consideran en un lapso dado.
+ - question: ¿En qué consiste el "Dilución" en una startup?
+   answer: |
+     La dilución es la reducción en el porcentaje de capital social que poseen algunos socios de una sociedad debido a la creación de nuevas participaciones sociales adquiridas por otros socios.
+ - question: ¿Qué es un "Vesting" en el contexto de una startup?
+   answer: |
+     El "Vesting" es un derecho progresivo que tienen ciertos socios o trabajadores de una startup para adquirir participaciones de la empresa en condiciones ventajosas a medida que cumplen ciertos hitos temporales o alcanzan objetivos específicos.
+ - question: ¿Cuál es la función de un "Non-Disclosure Agreement (NDA)" en una negociación de inversión?
+   answer: |
+      Un "Non-Disclosure Agreement (NDA)" es un acuerdo en el que una empresa protege la confidencialidad de la información proporcionada a terceros durante negociaciones, inversiones u otros procesos. Su objetivo es garantizar que la información sensible no se divulgue sin autorización.
+document:
+ repo: https://github.com/PaulaViguri/sabadell_knowledge.git
+ commit: 24e8972
+ patterns:
+   - diccionario_inversion.md
