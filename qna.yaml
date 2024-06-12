@@ -1,0 +1,180 @@
+task_description: Extracción de datos clave de las solicitudes de pymes para préstamos y ayudas de financiación. 
+created_by: ClientEngineering
+seed_examples:
+  - context: |
+      Estimados Señores,
+        Por la presente, solicitamos un préstamo de €500.000 para nuestra empresa, AppEduca, dedicada al desarrollo de aplicaciones móviles educativas. El préstamo se utilizará para financiar la expansión de nuestro equipo de desarrollo y la comercialización de nuestra nueva app, AprendizApp.
+        AppEduca cuenta con un sólido historial financiero, habiendo experimentado un crecimiento constante de los ingresos en los últimos tres años. En el último año fiscal, nuestros ingresos alcanzaron los €1 millón, con una tasa de crecimiento anual del 20%. Proyectamos que nuestros ingresos aumentarán a €1,5 millones en el próximo año fiscal y a €2 millones en los dos años siguientes.
+        La empresa cuenta con un equipo experimentado de profesionales con un profundo conocimiento del sector de las aplicaciones móviles educativas. Además, hemos desarrollado una sólida estrategia de marketing para llevar nuestra nueva app al mercado.
+        Confiamos en que este préstamo nos permitirá alcanzar nuestros objetivos de crecimiento y convertirnos en un líder en el mercado de las aplicaciones móviles educativas.
+        Agradecemos su tiempo y consideración.
+        Atentamente,
+
+        CEO de AppEduca
+
+    question: |
+       Identifica los datos clave de la solicitud de financiación en formato json con claves y valores, incluyendo información no obvia que requiera análisis profesional.
+    
+    answer: |
+      {"Empresa_solicitante": "AppEduca",
+      "Tipo_financiacion": "Préstamo",
+      "Monto_solicitado": "€500.000",
+      "Sector_empresa": "Desarrollo de aplicaciones móviles educativas",
+      "Historial_financiero": "Sólido, con un crecimiento constante del 20% en los últimos 3 años",
+      "Ingresos_actuales": "€1 millón",
+      "Proyecciones_crecimiento": "€1,5 millones en el próximo año fiscal y €2 millones en los dos años siguientes",
+      "Equipo_experiencia": "Equipo experimentado con profundo conocimiento del sector",
+      "Estrategia_marketing": "Sólida estrategia para llevar la nueva app al mercado",
+      "Objetivo_prestamo": "Expansión del equipo de desarrollo y comercialización de la nueva app AprendizApp"
+      }
+  - context: |
+      Estimados Señores,
+      Me dirijo a ustedes en representación de Panadería Artesanal El Horno de María, una empresa familiar dedicada a la producción de pan artesanal desde hace 25 años.
+      Actualmente, estamos solicitando una ayuda de €30.000 para financiar la adquisición de un nuevo horno rotativo de alta eficiencia. Esta nueva maquinaria nos permitirá:
+
+      Aumentar nuestra capacidad de producción en un 30%, lo que nos permitirá atender a una mayor demanda de nuestros clientes y ampliar nuestra presencia en el mercado.
+      Reducir los tiempos de cocción en un 20%, lo que nos permitirá ofrecer un producto más fresco y de mayor calidad.
+      Disminuir el consumo de energía en un 15%, lo que nos permitirá reducir nuestros costes operativos y contribuir a la sostenibilidad del medio ambiente.
+      La nueva maquinaria también nos permitirá ampliar nuestra oferta de productos con la introducción de nuevas variedades de pan, como pan integral, pan de espelta y pan sin gluten.
+
+      Panadería Artesanal El Horno de María cuenta con un historial crediticio impecable y una sólida situación financiera. En el último año fiscal, nuestros ingresos alcanzaron los €250.000 y nuestro beneficio neto fue de €30.000.
+      Estamos convencidos de que esta inversión en nueva maquinaria nos permitirá consolidar nuestra posición en el mercado, aumentar nuestra rentabilidad y convertirnos en una referencia en el sector de la panadería artesanal.
+      Agradecemos su tiempo y consideración.
+
+      Gerente General de Panadería Artesanal El Horno de María
+    question: |
+      Identifica los datos clave de la solicitud de financiación en formato json con claves y valores, incluyendo información no obvia que requiera análisis profesional.
+
+    answer: |
+      {""Empresa_solicitante": "Panadería Artesanal El Horno de María",
+      "Tipo_financiacion": "Ayuda",
+      "Monto_solicitado": "€30.000",
+      "Sector_empresa": "Producción de pan artesanal",
+      "Antiguedad_empresa": "25 años",
+      "Objetivo_ayuda": "Adquisición de nuevo horno rotativo de alta eficiencia",
+      "Impacto_esperado_maquinaria": {
+      "Aumento_capacidad_produccion": "30%",
+      "Reduccion_tiempos_coccion": "20%",
+      "Disminucion_consumo_energia": "15%"
+      },
+      "Ampliacion_oferta_productos": "Introducción de nuevas variedades de pan (integral, espelta, sin gluten)",
+      "Historial_crediticio": "Impecable",
+      "Situacion_financiera": "Sólida",
+      "Ingresos_ultimo_año_fiscal": "€250.000",
+      "Beneficio_neto_ultimo_año_fiscal": "€30.000",
+      "Objetivos_inversion": "Consolidar posición en el mercado, aumentar rentabilidad, convertirse en referencia en el sector"
+      }
+  - context : |
+      Estimados Señores,
+      Servicios de Limpieza Brillante S.L. solicita un préstamo de €80.000 para adquirir una máquina CleanTech 5000. Esta máquina aumentará nuestra eficiencia en un 25% y reducirá costes en un 15%.
+      Objetivo: Ampliar servicios (moquetas, alfombras, cristales) y acceder a nuevos clientes (hospitales, centros educativos, fábricas).
+      Empresa: 15 años de experiencia, historial financiero impecable, ingresos de €220.000 y beneficio neto de €35.000 en el último año fiscal.
+      Compromiso: Calidad, excelencia, equipo cualificado, sistema de gestión de la calidad ISO 9001.
+      Objetivo final: Consolidar posición en el mercado, aumentar rentabilidad y convertirnos en referencia en el sector de la limpieza industrial.
+      Atentamente,
+
+
+      Gerente General de Servicios de Limpieza Brillante S.L.
+
+    question: |
+      Identifica los datos clave de la solicitud de financiación en formato json con claves y valores, incluyendo información no obvia que requiera análisis profesional.
+    answer: |
+      {"Empresa_solicitante": "Servicios de Limpieza Brillante S.L.",
+      "Tipo_financiacion": "Préstamo",
+      "Monto_solicitado": "€80.000",
+      "Sector_empresa": "Servicios de limpieza industrial",
+      "Antiguedad_empresa": "15 años",
+      "Objetivo_prestamo": "Adquisición de nueva máquina de limpieza industrial CleanTech 5000",
+      "Impacto_esperado_maquinaria": {
+      "Aumento_eficiencia_productividad": "25%",
+      "Reduccion_costes_operativos": "15%"
+      },
+      "Ampliacion_gama_servicios": "Servicios especializados (moquetas, alfombras, cristales de gran altura)",
+      "Acceso_nuevos_clientes": "Sectores que requieren limpieza industrial especializada (hospitales, centros educativos, fábricas)",
+      "Historial_financiero": "Impecable",
+      "Ingresos_ultimo_año_fiscal": "€220.000",
+      "Beneficio_neto_ultimo_año_fiscal": "€35.000",
+      "Objetivos_inversion": "Consolidar posición en el mercado, aumentar rentabilidad, convertirse en referencia en el sector"
+      }
+  - context:  |
+      Estimados Señores,
+      Guardería Sonrisas Felices solicita un préstamo de €60.000 para financiar la renovación y ampliación de sus instalaciones. Esta renovación nos permitirá:
+
+      Aumentar nuestra capacidad de atención a los niños en un 20%, pasando de 50 a 60 plazas.
+      Crear nuevos espacios educativos y lúdicos para favorecer el desarrollo integral de los niños.
+      Mejorar la accesibilidad y la seguridad de las instalaciones.
+      Ofrecer un entorno más confortable y acogedor para los niños y sus familias.
+      La renovación de las instalaciones incluirá:
+      La creación de dos nuevas aulas con mobiliario y material didáctico nuevo.
+      La ampliación del patio de juegos con nuevos elementos de juego y zonas verdes.
+      La reforma de los baños y la cocina para cumplir con las últimas normativas de higiene y seguridad.
+      La instalación de un sistema de climatización para garantizar el confort de los niños durante todo el año.
+      Guardería Sonrisas Felices opera en un sector en crecimiento, donde existe una demanda cada vez mayor de plazas de guardería de calidad. La empresa está convencida de que la renovación y ampliación de sus instalaciones le permitirá consolidar su posición en el mercado y convertirse en una referencia en el sector.
+
+      La empresa cuenta con un historial financiero impecable y una sólida situación financiera. En el último año fiscal, la empresa generó ingresos por valor de €250.000 y un beneficio neto de €35.000.
+      Guardería Sonrisas Felices está comprometida con la educación de calidad y el bienestar de los niños. La empresa cuenta con un equipo de profesionales altamente cualificados y experimentados que reciben formación continua. La empresa también cuenta con un proyecto educativo innovador basado en el juego y la experimentación.
+      La empresa está convencida de que esta inversión en la renovación y ampliación de sus instalaciones le permitirá ofrecer un servicio educativo de mayor calidad a los niños y sus familias, consolidar su posición en el mercado y aumentar su rentabilidad.
+      Agradecemos su tiempo y consideración.
+
+      Atentamente,
+    question: |
+      Identifica los datos clave de la solicitud de financiación en formato json con claves y valores, incluyendo información no obvia que requiera análisis profesional.
+    answer: |
+      {"Empresa_solicitante": "Guardería Sonrisas Felices",
+      "Tipo_financiacion": "Préstamo",
+      "Monto_solicitado": "€60.000",
+      "Sector_empresa": "Educación infantil",
+      "Antiguedad_empresa": "No especificado",
+      "Objetivo_prestamo": "Renovación y ampliación de instalaciones",
+      "Impacto_esperado_renovacion": {
+      "Aumento_capacidad_atencion_ninos": "20% (de 50 a 60 plazas)",
+      "Creacion_nuevos_espacios": "Educativos y lúdicos para desarrollo integral de niños",
+      "Mejora_accesibilidad_seguridad": "De las instalaciones",
+      "Entorno_mas_confortable_acogedor": "Para niños y familias"
+      },
+      "Detalles_renovacion_ampliacion": {
+      "Creacion_dos_nuevas_aulas": "Mobiliario y material didáctico nuevo",
+      "Ampliacion_patio_juegos": "Nuevos elementos de juego y zonas verdes",
+      "Reforma_banos_cocina": "Cumplimiento normativas higiene y seguridad",
+      "Instalacion_sistema_climatizacion": "Confort durante todo el año"
+      },
+      "Mercado_competencia": "En crecimiento con demanda plazas de guardería de calidad",
+      "Diferenciacion_competencia": "Renovación y ampliación de instalaciones",
+      "Historial_financiero": "Impecable",
+      "Situacion_financiera": "Sólida",
+      "Ingresos_ultimo_año_fiscal": "€250.000",
+      "Beneficio_neto_ultimo_año_fiscal": "€35.000",
+      "Objetivos_inversion": "Consolidar posición en el mercado, aumentar rentabilidad, ofrecer servicio educativo de mayor calidad"
+      }
+  - context: |
+      Estimados Señores,
+
+      Tienda Electrónica TecnoFuturo solicita un préstamo de €75.000 para renovar su stock con los últimos modelos de gadgets tecnológicos. Esta inversión permitirá ofrecer una gama más amplia de productos innovadores, mejorar la satisfacción del cliente y aumentar las ventas.
+      Objetivo: Ser líderes en la venta de tecnología de vanguardia.
+      Empresa: Historial financiero estable, ingresos de €500.000 y beneficio neto de €60.000 en el último año fiscal.
+      Compromiso: Innovación, servicio al cliente excepcional, equipo experto en tecnología.
+      Objetivo final: Ampliar cuota de mercado, maximizar la rentabilidad y ser la tienda de referencia en tecnología.
+      Atentamente,
+
+
+      Gerente de Tienda Electrónica TecnoFuturo
+    question: |
+      Identifica los datos clave de la solicitud de financiación en formato json con claves y valores, incluyendo información no obvia que requiera análisis profesional.
+    answer: |
+      {"Empresa_solicitante": "Tienda Electrónica TecnoFuturo",
+      "Tipo_financiacion": "Préstamo",
+      "Monto_solicitado": "€75.000",
+      "Sector_empresa": "Venta de tecnología",
+      "Antiguedad_empresa": "No especificado",
+      "Objetivo_prestamo": "Renovar stock con últimos modelos de gadgets tecnológicos",
+      "Impacto_esperado_inversion": {
+      "Mejora_satisfaccion_cliente": "Acceso a productos innovadores y actuales",
+      "Aumento_ventas": "Mayor variedad y disponibilidad de productos",
+      "Mejora_reputacion": "Ser vistos como líderes en tecnología de vanguardia"
+      },
+      "Diferenciacion_competencia": "Renovación continua del stock con las últimas novedades",
+      "Historial_financiero": "Estable",
+      "Ingresos_ultimo_año_fiscal": "€500.000",
+      "Beneficio_neto_ultimo_año_fiscal": "€60.000",
+      "Objetivos_inversion": "Ampliar cuota de mercado, maximizar la rentabilidad, ser la tienda de referencia en tecnología"
+      }
