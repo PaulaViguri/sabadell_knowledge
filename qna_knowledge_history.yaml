@@ -1,0 +1,54 @@
+task_description: Knowledge skill - Conocimiento sobre Banco Sabadell
+created_by: Client Engineering
+domain: finance
+seed_examples:
+ - question: ¿Cuándo y dónde fue fundado Banco Sabadell?
+   answer: |
+     Banco Sabadell fue fundado el 31 de diciembre de 1881 en Sabadell, provincia de Barcelona.
+ - question: ¿Cuál es la sede actual de Banco Sabadell?
+   answer: |
+     La sede actual de Banco Sabadell está en Alicante, España.
+ - question: ¿En qué mercados opera Banco Sabadell?
+   answer: |
+     Banco Sabadell opera en mercados comerciales, empresariales, corporativos y privados, con un enfoque en el negocio internacional.
+ - question: ¿Qué hitos importantes ha logrado Banco Sabadell en su historia reciente?
+   answer: |
+     Algunos hitos importantes incluyen la cotización en la Bolsa de Madrid desde 2001, formar parte del índice IBEX 35 desde 2004, y la expansión internacional a países como el Reino Unido y México.
+ - question: ¿Qué es Sabadell United Bank?
+   answer: |
+     Sabadell United Bank fue una marca creada tras la fusión de Banco Sabadell Miami, TransAtlantic Bank y Mellon United National Bank en Estados Unidos.
+ - question: ¿Cuál fue el objetivo inicial de la fundación de Banco Sabadell?
+   answer: |
+     El objetivo inicial fue financiar la industria local y proveer de materias primas (lana y carbón) en condiciones más favorables.
+ - question: ¿Qué tecnologías pioneras ha incorporado Banco Sabadell a lo largo de su historia?
+   answer: |
+     Banco Sabadell ha sido pionero en la informatización de la banca española, incorporando tecnología en procesos contables y administrativos en 1968, y lanzando servicios de banca a distancia como FonoBanc e InfoBanc en 1986 y el servicio de banca por Internet BancSabadellNet en 1998.
+ - question: ¿Qué entidades ha adquirido Banco Sabadell a lo largo de su historia?
+   answer: |
+     Banco Sabadell ha adquirido varias entidades, incluyendo NatWest España, Banco Herrero, Banco Atlántico, Banco Urquijo, varias entidades en Miami (como TransAtlantic Bank y Mellon United National Bank), Banco Guipuzcoano, Banco CAM, Banco Gallego y Lloyds TSB España.
+ - question: ¿Cuándo comenzó Banco Sabadell a cotizar en la Bolsa de Madrid?
+   answer: |
+     Banco Sabadell comenzó a cotizar en la Bolsa de Madrid en 2001.
+ - question: ¿Qué pasó en 2017 que afectó la sede social de Banco Sabadell?
+   answer: |
+     En 2017, debido al proceso independentista catalán, el Consejo de Administración de Banco Sabadell aprobó el traslado de la sede social a Alicante.
+ - question: ¿Qué acuerdos significativos ha realizado Banco Sabadell recientemente?
+   answer: |
+     En diciembre de 2020, Banco Sabadell nombró a César González-Bueno como nuevo consejero delegado y la división de Banco Sabadell Seguros llegó a un acuerdo de ventas de seguros con Sanitas.
+ - question: ¿Qué sanción recibió Banco Sabadell en 2023 y por qué?
+   answer: |
+     En abril de 2023, la Audiencia Nacional ratificó una sanción de dos millones de euros a Banco Sabadell por infracción grave debido a "deficiencias" en la venta de algunos de sus productos.
+ - question: ¿Qué marcas utiliza Banco Sabadell para operar en diferentes regiones de España?
+   answer: |
+     Banco Sabadell opera bajo varias marcas: Sabadell, SabadellHerrero, SabadellGuipuzcoano, SabadellGallego, SabadellSolbank, SabadellUrquijo y ActivoBank.
+ - question: ¿Qué marca utiliza Banco Sabadell para su banca privada?
+   answer: |
+     Banco Sabadell utiliza la marca SabadellUrquijo para su banca privada.
+ - question: ¿Qué marca utiliza Banco Sabadell para clientes que operan únicamente a través de internet o teléfono?
+   answer: |
+     Banco Sabadell utiliza la marca ActivoBank para clientes que operan únicamente a través de canales de banca por internet o teléfono.
+document:
+ repo: https://github.com/PaulaViguri/sabadell_knowledge.git
+ commit: 24e8972
+ patterns:
+   - historia_banco_sabadell.md
