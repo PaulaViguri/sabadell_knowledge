@@ -1,0 +1,54 @@
+task_description: Knowledge skill - Conocimiento sobre terminos de inversion
+created_by: Client Engineering
+domain: finance
+seed_examples:
+ - question: ¿Que es una ampliacion de capital?
+   answer: |
+     Una ampliacion de capital es una operacion societaria que permite a una empresa aumentar su capital social, ya sea mediante la emision de nuevas participaciones o el aumento del valor nominal de las existentes. Puede realizarse con o sin prima de asuncion y pueden participar tanto socios existentes como nuevos bajo ciertos requisitos.
+ - question: ¿Que significa Deal Flow en el contexto de inversion en startups?
+   answer: |
+     Deal Flow se refiere al numero de potenciales inversores que un inversor revisa durante un periodo de tiempo determinado. Esencialmente, indica la cantidad de oportunidades de inversion que se consideran en un lapso dado.
+ - question: ¿En que consiste el Dilucion en una startup?
+   answer: |
+     La dilucion es la reduccion en el porcentaje de capital social que poseen algunos socios de una sociedad debido a la creacion de nuevas participaciones sociales adquiridas por otros socios.
+ - question: ¿Que es un Vesting en el contexto de una startup?
+   answer: |
+     El Vesting es un derecho progresivo que tienen ciertos socios o trabajadores de una startup para adquirir participaciones de la empresa en condiciones ventajosas a medida que cumplen ciertos hitos temporales o alcanzan objetivos especificos.
+ - question: ¿Cual es la funcion de un Non-Disclosure Agreement (NDA) en una negociacion de inversion?
+   answer: |
+      Un Non-Disclosure Agreement (NDA) es un acuerdo en el que una empresa protege la confidencialidad de la informacion proporcionada a terceros durante negociaciones, inversiones u otros procesos. Su objetivo es garantizar que la informacion sensible no se divulgue sin autorizacion.
+ - question: ¿Cuál es el propósito principal de la "Guía Loogic de Inversión en Startups 2016"?
+   answer: |
+     El propósito principal es ayudar a los emprendedores en la toma de decisiones financieras sobre sus proyectos.
+ - question: ¿Qué beneficio tienen los clientes de Sabadell BStartup respecto a la Guía Loogic?
+   answer: |
+     Los clientes de Sabadell BStartup pueden solicitar una edición especial de la Guía Loogic en su oficina especializada más cercana.
+ - question: ¿Qué derecho otorga la "Adquisición preferente" a un socio?
+   answer: |
+     Otorga el derecho preferente a un socio a adquirir las participaciones sociales que quiere vender otro socio antes que terceros.
+ - question: ¿Qué es una "Ampliación de capital"?
+   answer: |
+     Es una operación societaria que permite a la sociedad incrementar su capital social, también conocida como cash in, que puede hacerse con o sin prima de asunción.
+ - question: ¿Qué protege la cláusula de "Anti-dilución"?
+   answer: |
+     Protege a los socios beneficiarios permitiéndoles asumir a valor nominal las participaciones necesarias para mantener su precio por participación tras una operación posterior.
+ - question: ¿Qué indica el "Burn Rate"?
+   answer: |
+     Indica el ritmo al que una empresa consume sus recursos de caja.
+ - question: ¿Qué comprende el término "Capital social"?
+   answer: |
+     El capital social comprende un número de participaciones sociales con un valor nominal, y su multiplicación da como resultado la cifra del capital social.
+ - question: ¿Qué es el "Coste de la deuda"?
+   answer: |
+     Es el coste que tiene una empresa por obtener financiación ajena, que idealmente debería ser inferior al coste de aumentar el capital.
+ - question: ¿Qué representa el "Coste medio ponderado del capital"?
+   answer: |
+     Representa la tasa que refleja el coste medio de financiación de una empresa, tomando en proporción justa el Cost of Equity y el Cost of Debt.
+ - question: ¿Qué significa "Exit" en el contexto de inversión en startups?
+   answer: |
+     Significa el procedimiento que permite a un socio hacer líquida su participación en una empresa, a través de la venta de participaciones, salida a bolsa o reducción de capital con devolución de aportaciones.
+document:
+ repo: https://github.com/PaulaViguri/sabadell_knowledge.git
+ commit: 24e8972
+ patterns:
+   - diccionario_inversion.md
