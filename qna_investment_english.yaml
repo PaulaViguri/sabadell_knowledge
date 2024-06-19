@@ -19,6 +19,6 @@ seed_examples:
      A Non-Disclosure Agreement (NDA) is an agreement in which a company protects the confidentiality of information provided to third parties during negotiations, investments, or other processes. Its purpose is to ensure that sensitive information is not disclosed without authorization.
 document:
  repo: https://github.com/PaulaViguri/sabadell_knowledge.git
- commit: 990dfce
+ commit: d0c3b67
  patterns:
    - investment_dictionary.md
