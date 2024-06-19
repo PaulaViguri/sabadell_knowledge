@@ -50,7 +50,7 @@ seed_examples:
      Banco Sabadell uses the brand ActivoBank for clients who operate exclusively through internet or phone banking channels.
 document:
  repo: https://github.com/PaulaViguri/sabadell_knowledge.git
- commit: 24e8972
+ commit: 990dfce
  patterns:
    - sabadell_history_english.md
 ```
