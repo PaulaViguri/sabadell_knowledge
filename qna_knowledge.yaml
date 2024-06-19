@@ -1,24 +1,24 @@
-task_description: Knowledge skill - Conocimiento sobre terminos de inversion
+task_description: Knowledge skill - Knowledge about investment terms
 created_by: Client Engineering
 domain: finance
 seed_examples:
- - question: ¿Que es una ampliacion de capital?
+ - question: What is a capital increase?
    answer: |
-     Una ampliacion de capital es una operacion societaria que permite a una empresa aumentar su capital social, ya sea mediante la emision de nuevas participaciones o el aumento del valor nominal de las existentes. Puede realizarse con o sin prima de asuncion y pueden participar tanto socios existentes como nuevos bajo ciertos requisitos.
- - question: ¿Que significa Deal Flow en el contexto de inversion en startups?
+     A capital increase is a corporate operation that allows a company to increase its share capital, either through the issuance of new shares or the increase of the nominal value of existing shares. It can be done with or without a share premium and can involve both existing and new shareholders under certain conditions.
+ - question: What does Deal Flow mean in the context of startup investment?
    answer: |
-     Deal Flow se refiere al numero de potenciales inversores que un inversor revisa durante un periodo de tiempo determinado. Esencialmente, indica la cantidad de oportunidades de inversion que se consideran en un lapso dado.
- - question: ¿En que consiste el Dilucion en una startup?
+     Deal Flow refers to the number of potential investors that an investor reviews over a certain period. Essentially, it indicates the number of investment opportunities considered within a given timeframe.
+ - question: What does dilution in a startup involve?
    answer: |
-     La dilucion es la reduccion en el porcentaje de capital social que poseen algunos socios de una sociedad debido a la creacion de nuevas participaciones sociales adquiridas por otros socios.
- - question: ¿Que es un Vesting en el contexto de una startup?
+     Dilution is the reduction in the percentage of share capital owned by some shareholders of a company due to the creation of new shares acquired by other shareholders.
+ - question: What is vesting in the context of a startup?
    answer: |
-     El Vesting es un derecho progresivo que tienen ciertos socios o trabajadores de una startup para adquirir participaciones de la empresa en condiciones ventajosas a medida que cumplen ciertos hitos temporales o alcanzan objetivos especificos.
- - question: ¿Cual es la funcion de un Non-Disclosure Agreement (NDA) en una negociacion de inversion?
+     Vesting is a progressive right that certain shareholders or employees of a startup have to acquire shares of the company under favorable conditions as they meet certain time-based milestones or specific objectives.
+ - question: What is the function of a Non-Disclosure Agreement (NDA) in an investment negotiation?
    answer: |
-      Un Non-Disclosure Agreement (NDA) es un acuerdo en el que una empresa protege la confidencialidad de la informacion proporcionada a terceros durante negociaciones, inversiones u otros procesos. Su objetivo es garantizar que la informacion sensible no se divulgue sin autorizacion.
+     A Non-Disclosure Agreement (NDA) is an agreement in which a company protects the confidentiality of information provided to third parties during negotiations, investments, or other processes. Its purpose is to ensure that sensitive information is not disclosed without authorization.
 document:
  repo: https://github.com/PaulaViguri/sabadell_knowledge.git
  commit: 24e8972
  patterns:
-   - diccionario_inversion.md
+   - investment_dictionary.md
