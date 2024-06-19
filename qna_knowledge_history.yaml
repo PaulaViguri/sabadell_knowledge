@@ -1,54 +1,56 @@
-task_description: Knowledge skill - Conocimiento sobre Banco Sabadell
+```yaml
+task_description: Knowledge skill - Knowledge about Banco Sabadell
 created_by: Client Engineering
 domain: finance
 seed_examples:
- - question: ¿Cuándo y dónde fue fundado Banco Sabadell?
+ - question: When and where was Banco Sabadell founded?
    answer: |
-     Banco Sabadell fue fundado el 31 de diciembre de 1881 en Sabadell, provincia de Barcelona.
- - question: ¿Cuál es la sede actual de Banco Sabadell?
+     Banco Sabadell was founded on December 31, 1881, in Sabadell, province of Barcelona.
+ - question: Where is Banco Sabadell's current headquarters?
    answer: |
-     La sede actual de Banco Sabadell está en Alicante, España.
- - question: ¿En qué mercados opera Banco Sabadell?
+     Banco Sabadell's current headquarters are in Alicante, Spain.
+ - question: In which markets does Banco Sabadell operate?
    answer: |
-     Banco Sabadell opera en mercados comerciales, empresariales, corporativos y privados, con un enfoque en el negocio internacional.
- - question: ¿Qué hitos importantes ha logrado Banco Sabadell en su historia reciente?
+     Banco Sabadell operates in commercial, business, corporate, and private markets, with a focus on international business.
+ - question: What important milestones has Banco Sabadell achieved in its recent history?
    answer: |
-     Algunos hitos importantes incluyen la cotización en la Bolsa de Madrid desde 2001, formar parte del índice IBEX 35 desde 2004, y la expansión internacional a países como el Reino Unido y México.
- - question: ¿Qué es Sabadell United Bank?
+     Some important milestones include being listed on the Madrid Stock Exchange since 2001, becoming part of the IBEX 35 index since 2004, and international expansion to countries such as the United Kingdom and Mexico.
+ - question: What is Sabadell United Bank?
    answer: |
-     Sabadell United Bank fue una marca creada tras la fusión de Banco Sabadell Miami, TransAtlantic Bank y Mellon United National Bank en Estados Unidos.
- - question: ¿Cuál fue el objetivo inicial de la fundación de Banco Sabadell?
+     Sabadell United Bank was a brand created after the merger of Banco Sabadell Miami, TransAtlantic Bank, and Mellon United National Bank in the United States.
+ - question: What was the initial objective of Banco Sabadell's founding?
    answer: |
-     El objetivo inicial fue financiar la industria local y proveer de materias primas (lana y carbón) en condiciones más favorables.
- - question: ¿Qué tecnologías pioneras ha incorporado Banco Sabadell a lo largo de su historia?
+     The initial objective was to finance the local industry and provide raw materials (wool and coal) under more favorable conditions.
+ - question: What pioneering technologies has Banco Sabadell incorporated throughout its history?
    answer: |
-     Banco Sabadell ha sido pionero en la informatización de la banca española, incorporando tecnología en procesos contables y administrativos en 1968, y lanzando servicios de banca a distancia como FonoBanc e InfoBanc en 1986 y el servicio de banca por Internet BancSabadellNet en 1998.
- - question: ¿Qué entidades ha adquirido Banco Sabadell a lo largo de su historia?
+     Banco Sabadell has been a pioneer in the computerization of Spanish banking, incorporating technology in accounting and administrative processes in 1968, and launching remote banking services such as FonoBanc and InfoBanc in 1986, and the Internet banking service BancSabadellNet in 1998.
+ - question: What entities has Banco Sabadell acquired throughout its history?
    answer: |
-     Banco Sabadell ha adquirido varias entidades, incluyendo NatWest España, Banco Herrero, Banco Atlántico, Banco Urquijo, varias entidades en Miami (como TransAtlantic Bank y Mellon United National Bank), Banco Guipuzcoano, Banco CAM, Banco Gallego y Lloyds TSB España.
- - question: ¿Cuándo comenzó Banco Sabadell a cotizar en la Bolsa de Madrid?
+     Banco Sabadell has acquired several entities, including NatWest Spain, Banco Herrero, Banco Atlántico, Banco Urquijo, several entities in Miami (such as TransAtlantic Bank and Mellon United National Bank), Banco Guipuzcoano, Banco CAM, Banco Gallego, and Lloyds TSB Spain.
+ - question: When did Banco Sabadell start trading on the Madrid Stock Exchange?
    answer: |
-     Banco Sabadell comenzó a cotizar en la Bolsa de Madrid en 2001.
- - question: ¿Qué pasó en 2017 que afectó la sede social de Banco Sabadell?
+     Banco Sabadell started trading on the Madrid Stock Exchange in 2001.
+ - question: What happened in 2017 that affected Banco Sabadell's headquarters?
    answer: |
-     En 2017, debido al proceso independentista catalán, el Consejo de Administración de Banco Sabadell aprobó el traslado de la sede social a Alicante.
- - question: ¿Qué acuerdos significativos ha realizado Banco Sabadell recientemente?
+     In 2017, due to the Catalan independence process, Banco Sabadell's Board of Directors approved the transfer of the headquarters to Alicante.
+ - question: What significant agreements has Banco Sabadell made recently?
    answer: |
-     En diciembre de 2020, Banco Sabadell nombró a César González-Bueno como nuevo consejero delegado y la división de Banco Sabadell Seguros llegó a un acuerdo de ventas de seguros con Sanitas.
- - question: ¿Qué sanción recibió Banco Sabadell en 2023 y por qué?
+     In December 2020, Banco Sabadell appointed César González-Bueno as the new CEO, and the Banco Sabadell Seguros division reached an agreement for the sale of insurance with Sanitas.
+ - question: What sanction did Banco Sabadell receive in 2023 and why?
    answer: |
-     En abril de 2023, la Audiencia Nacional ratificó una sanción de dos millones de euros a Banco Sabadell por infracción grave debido a "deficiencias" en la venta de algunos de sus productos.
- - question: ¿Qué marcas utiliza Banco Sabadell para operar en diferentes regiones de España?
+     In April 2023, the National Court ratified a two-million-euro sanction on Banco Sabadell for a serious infringement due to "deficiencies" in the sale of some of its products.
+ - question: What brands does Banco Sabadell use to operate in different regions of Spain?
    answer: |
-     Banco Sabadell opera bajo varias marcas: Sabadell, SabadellHerrero, SabadellGuipuzcoano, SabadellGallego, SabadellSolbank, SabadellUrquijo y ActivoBank.
- - question: ¿Qué marca utiliza Banco Sabadell para su banca privada?
+     Banco Sabadell operates under several brands: Sabadell, SabadellHerrero, SabadellGuipuzcoano, SabadellGallego, SabadellSolbank, SabadellUrquijo, and ActivoBank.
+ - question: What brand does Banco Sabadell use for its private banking?
    answer: |
-     Banco Sabadell utiliza la marca SabadellUrquijo para su banca privada.
- - question: ¿Qué marca utiliza Banco Sabadell para clientes que operan únicamente a través de internet o teléfono?
+     Banco Sabadell uses the brand SabadellUrquijo for its private banking.
+ - question: What brand does Banco Sabadell use for clients who operate only through the internet or phone?
    answer: |
-     Banco Sabadell utiliza la marca ActivoBank para clientes que operan únicamente a través de canales de banca por internet o teléfono.
+     Banco Sabadell uses the brand ActivoBank for clients who operate exclusively through internet or phone banking channels.
 document:
  repo: https://github.com/PaulaViguri/sabadell_knowledge.git
  commit: 24e8972
  patterns:
-   - historia_banco_sabadell.md
+   - sabadell_history_english.md
+```
