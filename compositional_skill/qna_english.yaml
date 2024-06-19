@@ -1,0 +1,178 @@
+task_description: Extraction of key data from SME applications for loans and financing aids.
+created_by: ClientEngineering
+seed_examples:
+  - context: |
+      Dear Sirs,
+        We hereby request a loan of €500,000 for our company, AppEduca, dedicated to the development of educational mobile applications. The loan will be used to finance the expansion of our development team and the marketing of our new app, AprendizApp.
+        AppEduca has a solid financial track record, having experienced consistent revenue growth over the past three years. In the last fiscal year, our revenue reached €1 million, with an annual growth rate of 20%. We project that our revenue will increase to €1.5 million in the next fiscal year and to €2 million in the following two years.
+        The company has an experienced team of professionals with in-depth knowledge of the educational mobile applications sector. Additionally, we have developed a solid marketing strategy to bring our new app to market.
+        We are confident that this loan will allow us to achieve our growth objectives and become a leader in the educational mobile applications market.
+        We appreciate your time and consideration.
+        Sincerely,
+
+        CEO of AppEduca
+
+    question: |
+       Identify the key data of the financing request in JSON format with keys and values, including non-obvious information that requires professional analysis.
+    
+    answer: |
+      {"Applicant_company": "AppEduca",
+      "Type_of_financing": "Loan",
+      "Amount_requested": "€500,000",
+      "Company_sector": "Development of educational mobile applications",
+      "Financial_history": "Solid, with consistent 20% growth over the past three years",
+      "Current_revenue": "€1 million",
+      "Growth_projections": "€1.5 million in the next fiscal year and €2 million in the following two years",
+      "Team_experience": "Experienced team with in-depth knowledge of the sector",
+      "Marketing_strategy": "Solid strategy to bring the new app to market",
+      "Loan_objective": "Expansion of the development team and marketing of the new app AprendizApp"
+      }
+  - context: |
+      Dear Sirs,
+      I am writing to you on behalf of Panadería Artesanal El Horno de Maria, a family business dedicated to the production of artisanal bread for 25 years.
+      Currently, we are requesting aid of €30,000 to finance the acquisition of a new high-efficiency rotary oven. This new machinery will allow us to:
+
+      Increase our production capacity by 30%, enabling us to meet higher customer demand and expand our market presence.
+      Reduce baking times by 20%, allowing us to offer a fresher and higher quality product.
+      Decrease energy consumption by 15%, which will reduce our operating costs and contribute to environmental sustainability.
+      The new machinery will also allow us to expand our product range by introducing new varieties of bread, such as whole wheat, spelt, and gluten-free bread.
+
+      Panadería Artesanal El Horno de Maria has an impeccable credit history and a solid financial situation. In the last fiscal year, our revenue reached €250,000 and our net profit was €30,000.
+      We are convinced that this investment in new machinery will allow us to consolidate our market position, increase our profitability, and become a reference in the artisanal bread sector.
+      We appreciate your time and consideration.
+
+      General Manager of Panadería Artesanal El Horno de Maria
+    question: |
+      Identify the key data of the financing request in JSON format with keys and values, including non-obvious information that requires professional analysis.
+
+    answer: |
+      {"Applicant_company": "Panadería Artesanal El Horno de Maria",
+      "Type_of_financing": "Aid",
+      "Amount_requested": "€30,000",
+      "Company_sector": "Artisanal bread production",
+      "Company_age": "25 years",
+      "Aid_objective": "Acquisition of a new high-efficiency rotary oven",
+      "Expected_impact_of_machinery": {
+      "Increase_in_production_capacity": "30%",
+      "Reduction_in_baking_times": "20%",
+      "Decrease_in_energy_consumption": "15%"
+      },
+      "Expansion_of_product_range": "Introduction of new bread varieties (whole wheat, spelt, gluten-free)",
+      "Credit_history": "Impeccable",
+      "Financial_situation": "Solid",
+      "Revenue_last_fiscal_year": "€250,000",
+      "Net_profit_last_fiscal_year": "€30,000",
+      "Investment_objectives": "Consolidate market position, increase profitability, become a reference in the sector"
+      }
+  - context : |
+      Dear Sirs,
+      Servicios de Limpieza Brillante S.L. is requesting a loan of €80,000 to acquire a CleanTech 5000 machine. This machine will increase our efficiency by 25% and reduce costs by 15%.
+      Objective: Expand services (carpets, rugs, windows) and access new clients (hospitals, educational centers, factories).
+      Company: 15 years of experience, impeccable financial history, revenues of €220,000 and net profit of €35,000 in the last fiscal year.
+      Commitment: Quality, excellence, qualified team, ISO 9001 quality management system.
+      Final objective: Consolidate market position, increase profitability, and become a reference in the industrial cleaning sector.
+      Sincerely,
+
+      General Manager of Servicios de Limpieza Brillante S.L.
+
+    question: |
+      Identify the key data of the financing request in JSON format with keys and values, including non-obvious information that requires professional analysis.
+    answer: |
+      {"Applicant_company": "Servicios de Limpieza Brillante S.L.",
+      "Type_of_financing": "Loan",
+      "Amount_requested": "€80,000",
+      "Company_sector": "Industrial cleaning services",
+      "Company_age": "15 years",
+      "Loan_objective": "Acquisition of a new industrial cleaning machine CleanTech 5000",
+      "Expected_impact_of_machinery": {
+      "Increase_in_efficiency_and_productivity": "25%",
+      "Reduction_in_operating_costs": "15%"
+      },
+      "Expansion_of_service_range": "Specialized services (carpets, rugs, high windows)",
+      "Access_to_new_clients": "Sectors requiring specialized industrial cleaning (hospitals, educational centers, factories)",
+      "Financial_history": "Impeccable",
+      "Revenue_last_fiscal_year": "€220,000",
+      "Net_profit_last_fiscal_year": "€35,000",
+      "Investment_objectives": "Consolidate market position, increase profitability, become a reference in the sector"
+      }
+  - context:  |
+      Dear Sirs,
+      Guardería Sonrisas Felices is requesting a loan of €60,000 to finance the renovation and expansion of its facilities. This renovation will allow us to:
+
+      Increase our child care capacity by 20%, going from 50 to 60 places.
+      Create new educational and recreational spaces to promote the integral development of children.
+      Improve the accessibility and safety of the facilities.
+      Offer a more comfortable and welcoming environment for children and their families.
+      The renovation of the facilities will include:
+      The creation of two new classrooms with new furniture and didactic material.
+      The expansion of the playground with new play elements and green areas.
+      The renovation of the bathrooms and kitchen to comply with the latest hygiene and safety regulations.
+      The installation of a climate control system to ensure the comfort of the children throughout the year.
+      Guardería Sonrisas Felices operates in a growing sector, where there is an increasing demand for quality nursery places. The company is convinced that the renovation and expansion of its facilities will allow it to consolidate its market position and become a reference in the sector.
+
+      The company has an impeccable financial history and a solid financial situation. In the last fiscal year, the company generated revenues of €250,000 and a net profit of €35,000.
+      Guardería Sonrisas Felices is committed to quality education and the well-being of children. The company has a highly qualified and experienced team of professionals who receive continuous training. The company also has an innovative educational project based on play and experimentation.
+      The company is convinced that this investment in the renovation and expansion of its facilities will allow it to offer a higher quality educational service to children and their families, consolidate its market position, and increase its profitability.
+      We appreciate your time and consideration.
+
+      Sincerely,
+    question: |
+      Identify the key data of the financing request in JSON format with keys and values, including non-obvious information that requires professional analysis.
+    answer: |
+      {"Applicant_company": "Guardería Sonrisas Felices",
+      "Type_of_financing": "Loan",
+      "Amount_requested": "€60,000",
+      "Company_sector": "Child education",
+      "Company_age": "Not specified",
+      "Loan_objective": "Renovation and expansion of facilities",
+      "Expected_impact_of_renovation": {
+      "Increase_in_child_care_capacity": "20% (from 50 to 60 places)",
+      "Creation_of_new_spaces": "Educational and recreational spaces for children's integral development",
+      "Improvement_of_accessibility_and_safety": "Of the facilities",
+      "More_comfortable_and_welcoming_environment": "For children and families"
+      },
+      "Details_of_renovation_and_expansion": {
+      "Creation_of_two_new_classrooms": "New furniture and didactic material",
+      "Expansion_of_playground": "New play elements and green areas",
+      "Renovation_of_bathrooms_and_kitchen": "Compliance with hygiene and safety regulations",
+      "Installation_of_climate_control_system": "Comfort throughout the year"
+      },
+      "Market_competition": "Growing with increasing demand for quality nursery places",
+      "Competitive_differentiation": "Renovation and expansion of facilities",
+      "Financial_history": "Impeccable",
+      "Financial_situation": "Solid",
+      "Revenue_last_fiscal_year": "€250,000",
+      "Net_profit_last_fiscal_year": "€35,000",
+      "Investment_objectives": "Consolidate market position, increase profitability, offer higher quality educational service"
+      }
+  - context: |
+      Dear Sirs,
+
+      Tienda Electrónica TecnoFuturo is requesting a loan of €75,000 to renew its stock with the latest models of technological gadgets. This investment will allow us to offer a wider range of innovative products, improve customer satisfaction, and increase sales.
+      Objective: To be leaders in the sale of cutting-edge technology.
+      Company: Stable financial history, revenues of €500,000 and net profit of €60,000 in the last fiscal year.
+      Commitment: Innovation, exceptional customer service, expert technology team.
+      Final objective: Expand market share, maximize profitability, and become the reference store in technology.
+      Sincerely,
+
+      Manager of Tienda Electrónica TecnoFuturo
+    question: |
+      Identify the key data of the financing request in JSON format with keys and values, including non-obvious information that requires professional analysis.
+    answer: |
+      {"Applicant_company": "Tienda Electrónica TecnoFuturo",
+      "Type_of_financing": "Loan",
+      "Amount_requested": "€75,000",
+      "Company_sector": "Technology sales",
+      "Company_age": "Not specified",
+      "Loan_objective": "Renew stock with the latest models of technological gadgets",
+      "Expected_impact_of_investment": {
+      "Improvement_in_customer_satisfaction": "Access to innovative and current products",
+      "Increase_in_sales": "Greater variety and availability of products",
+      "Improvement_in_reputation": "Seen as leaders in cutting-edge technology"
+      },
+      "Competitive_differentiation": "Continuous stock renewal with the latest innovations",
+      "Financial_history": "Stable",
+      "Revenue_last_fiscal_year": "€500,000",
+      "Net_profit_last_fiscal_year": "€60,000",
+      "Investment_objectives": "Expand market share, maximize profitability, become the reference store in technology"
+      }
